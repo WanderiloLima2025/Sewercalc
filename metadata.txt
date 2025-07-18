@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Sewercalc
+qgisMinimumVersion=3.0
+description=Dimensionamento de Redes Coletoras de Esgoto (RCE)
+version=1.0
+author=Wanderilo Lima (FLF), Profª. Ma. Lívia Albuquerque (FLF)
+email=wanderilolima.wl@gmail.com, 
+
+about=Este plugin foi desenvolvido como parte de um projeto de TCC na Faculdade Luciano Feijão (FLF), em Sobral-CE, com o objetivo de otimizar e agilizar a concepção e o dimensionamento da RCE. A ferramenta integra funcionalidades automatizadas que vão desde a organização e estruturação dos dados até a geração de resultados técnicos. Entre suas principais características, destacam-se a visualização estruturada das informações, a nomeação automatizada de coletores, a importação de cotas, a caracterização de poços de visita, a exibição de perfis longitudinais e a exportação de planilha e arquivo xml. Além disso, o plugin realiza um dimensionamento hidráulico otimizado, calculando inclinações de forma iterativa para minimizar o volume de escavação e garantir conformidade com as diretrizes da norma NBR 14.486/2000.  Para sua operação, é fundamental que o usuário tenha conhecimentos básicos em dimensionamento de redes de esgoto que possibilite a interpretação crítica dos resultados gerados.
+
+tracker=https://github.com/WanderiloLima2025/Sewercalc/issues
+repository=https://github.com/WanderiloLima2025/Sewercalc
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog= 1.0.0 - 2025/05/28 - Initial Release
+
+# Tags are comma separated with spaces allowed
+tags=python,Redes Coletora de Esgoto, Dimensionamento
+
+homepage=https://github.com/WanderiloLima2025/Sewercalc/blob/main/README.md
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
